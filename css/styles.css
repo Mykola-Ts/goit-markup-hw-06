@@ -947,6 +947,12 @@ img {
   fill: currentColor;
 }
 
+.default-checkbox:focus
+  + .modal-order-policy-label
+  .modal-order-policy-checkbox {
+  border: 1px solid var(--pressed-state-color);
+}
+
 .default-checkbox:checked
   + .modal-order-policy-label
   .modal-order-policy-checkbox {
